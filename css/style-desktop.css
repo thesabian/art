@@ -162,7 +162,11 @@
 		{
 			margin: 0 0 0 5em;
 		}
-		
+		.feature-list .relaxed-margin
+		{
+			margin: 0 0 0 3em;
+		}
+
 		.feature-list-small
 		{
 		}
