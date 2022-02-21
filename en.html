@@ -25,6 +25,9 @@
 
 <body class="homepage">
 
+	<div class="preloader js-preloader flex-center">
+	</div>
+
 	<!-- Header Wrapper -->
 	<div id="header-wrapper" class="wrapper">
 		<div class="container">
@@ -50,6 +53,8 @@
 						<!-- Logo -->
 						<div id="logo">
 
+							<br class="mobile-hide" />
+							<br class="mobile-hide" />
 							<br class="mobile-hide" />
 							<br class="mobile-hide" />
 							<br class="mobile-hide" />
@@ -96,7 +101,7 @@
 	<!-- /Header Wrapper -->
 
 	<!-- Intro Wrapper -->
-	<div id="intro-wrapper" class="wrapper wrapper-style2">
+	<div id="intro-wrapper" class="wrapper wrapper-style22">
 		<div class="title" id="titleServizi">OUR SERVICES</div>
 		<div class="container">
 			<div class="row">
@@ -472,6 +477,11 @@
 	</div>
 	<!-- /Footer Wrapper -->
 
+	<script src="js/jquery.preloadinator.min.js"></script>
+	<script>
+		$('.js-preloader').preloadinator({
+			minTime: 200
+		});
+	</script>
 </body>
-
 </html>

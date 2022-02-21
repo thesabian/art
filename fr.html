@@ -25,6 +25,9 @@
 
 <body class="homepage">
 
+	<div class="preloader js-preloader flex-center">
+	</div>
+
 	<!-- Header Wrapper -->
 	<div id="header-wrapper" class="wrapper">
 		<div class="container">
@@ -50,6 +53,8 @@
 						<!-- Logo -->
 						<div id="logo">
 
+							<br class="mobile-hide" />
+							<br class="mobile-hide" />
 							<br class="mobile-hide" />
 							<br class="mobile-hide" />
 							<br class="mobile-hide" />
@@ -96,7 +101,7 @@
 	<!-- /Header Wrapper -->
 
 	<!-- Intro Wrapper -->
-	<div id="intro-wrapper" class="wrapper wrapper-style2">
+	<div id="intro-wrapper" class="wrapper wrapper-style22">
 		<div class="title" id="titleServizi">NOS SERVICES</div>
 		<div class="container">
 			<div class="row">
@@ -256,10 +261,12 @@
 											<section>
 												<h3>
 													<span>
-														<span class="mobile-hide" style="padding-left: 40px;"></span>
+														<span class="mobile-hide" style="padding-left: 32px;"></span>
 														<img src="images/bluestar.png" width="20" height="20" />
 														<span class="mobile-hide" style="padding-right: 14px;"></span>
-														<font color="#484d55">GIOVANNA CAROTTI</font>
+														<span>
+															<font color="#484d55">GIOVANNA CAROTTI</font>
+														</span>
 													</span>
 												</h3>
 												<p>Trente ans d’expérience en ce qui concerne transport, emballage,
@@ -472,6 +479,11 @@
 	</div>
 	<!-- /Footer Wrapper -->
 
+	<script src="js/jquery.preloadinator.min.js"></script>
+	<script>
+		$('.js-preloader').preloadinator({
+			minTime: 200
+		});
+	</script>
 </body>
-
 </html>
